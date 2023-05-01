@@ -1,10 +1,15 @@
-p, a{
-    font-family: Arial, Helvetica, sans-serif;
+header > p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    width: 400px;
+    height: 400px;
 }
 
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -15,4 +20,24 @@ header {
 footer {
     text-align: left;
     background-color: #e5f37b;
+}
+footer > a{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#treino_peito, #treino_costa{
+    display: inline-flex;
+}
+
+#treino_perna, #treino_braco{
+    display: inline-flex;
+} 
+
+
+#treino_ombro, #treino_abdomen{
+    display: inline-flex;
 }
