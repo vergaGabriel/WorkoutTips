@@ -1,3 +1,13 @@
+body{
+    background-color: lightseagreen;
+}
+
+/*
+main{
+   background-color: blanchedalmond;
+}
+*/
+
 header > p{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -14,16 +24,13 @@ h1 {
 
 header {
     text-align: center;
-    background-color: aquamarine;
 }
 
 footer {
-    text-align: left;
-    background-color: #e5f37b;
-}
-footer > a{
     font-family: 'Courier New', Courier, monospace;
+    text-align: left;
 }
+
 
 div{
     font-family: 'Courier New', Courier, monospace;
