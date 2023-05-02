@@ -1,5 +1,7 @@
 body{
-    background-color: lightseagreen;
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
 
 /*
@@ -34,17 +36,18 @@ footer {
 
 div{
     font-family: 'Courier New', Courier, monospace;
+    padding: 20px 20px 20px 20px;
 }
 
 #treino_peito, #treino_costa{
-    display: inline-flex;
+    display: inline-block;
 }
 
 #treino_perna, #treino_braco{
-    display: inline-flex;
+    display: inline-block;
 } 
 
 
 #treino_ombro, #treino_abdomen{
-    display: inline-flex;
+    display: inline-block;
 }
