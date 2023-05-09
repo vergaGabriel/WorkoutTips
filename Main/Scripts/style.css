@@ -10,6 +10,7 @@ header > p{
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 img{
     width: 400px;
     height: 400px;
@@ -38,6 +39,14 @@ div{
     font-family: 'Courier New', Courier, monospace;
     padding: 75px 250px 75px 275px;
 }
+
+button {
+    display: flex;
+    width: 200px;
+    font-size: 30px;
+    
+}
+
 
 #treino_peito, #treino_costa{
     display: inline-block;
