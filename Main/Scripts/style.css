@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
 
 body{
-    background-color: black;
+    background-color: #121210;
     color: white;
     font-weight: bold;
     margin: 0;
@@ -24,8 +24,9 @@ main > h1{
     font-family: 'Poopins', sans-serif;
     text-align: center;
 }
-main > div > p{
+main > div > div > p{
     font-family: 'Poopins', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -37,42 +38,57 @@ img{
 
 header {
     text-align: center;
-    margin: 50px 250px 0px 250px;
+    margin: 50px 200px 0px 200px;
     padding: 10px 10px 10px 10px;
-    background-color: white;
+    background-color: #d9d9db;
     color: black;
 }
 
 
 footer {
     font-family: 'Courier New', Courier, monospace;
-    text-align: left;
+    text-align: center;
 }
 
 
 div{
-    padding: 75px 250px 75px 275px;
+    padding: 30px 125px 30px 140px;
+    text-align: center;
 }
 
 
-button {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-    font-size: 30px;
-    
+.links {
+    background-color: #b7ae8f;
+    width: 140px;
+    padding: 15px 0px;
+    color: #121210;
+    text-align: center;
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.fichas {
+    background-color: #978f84;
+    padding: 20px 50px;
+    color: #121210;
+    text-align: center;
+    border-radius: 32px;
+    font-family: 'Poopins', sans-serif;
+    text-decoration: none;
 }
 
 
-#treino_peito, #treino_costa{
+
+#holder1, #holder2{
     display: inline-block;
 }
 
-#treino_perna, #treino_braco{
+#holder3, #holder4{
     display: inline-block;
 } 
 
 
-#treino_ombro, #treino_abdomen{
+#holder5, #holder6{
     display: inline-block;
 }
