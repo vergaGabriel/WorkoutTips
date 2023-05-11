@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
 
+
+/*
+Colors:
+.color1 { #d9d9db };
+.color2 { #b7ae8f };
+.color3 { #978f84 };
+.color4 { #4a362f };
+.color5 { #121210 };
+*/
+
+
 body{
     background-color: #121210;
     color: white;
