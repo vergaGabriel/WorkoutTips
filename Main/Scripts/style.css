@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
 
 
+/*PARA PC NORMAL*/
+ 
+
 body{
     background-color: #121210;
     color: #d9d9db;
     font-weight: bold;
     margin: 0;
     box-sizing: border-box;
+    min-width: 300;
+    max-width: 1440;
 }
 
 header > h1{
@@ -32,13 +37,25 @@ main > div > div > p{
     font-size: 20px;
 }
 
-.texto {
+.texto_atencao {
     text-align: center;
     margin: 25px 400px 50px 400px;
     font-family: 'Poopins', sans-serif;
-    font-size: 30px; 
+    font-size: 30px;
+    animation: slide 5s;
 }
 
+@keyframes slide {
+    from {
+        margin-left: 100%;
+        width: 1100px
+    }
+    
+    to {
+        margin-left: 21,5%;
+        width: 1100px
+    }
+}
 
 img{
     width: 400px;
@@ -55,8 +72,9 @@ header {
 
 
 footer {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poopins', sans-serif;
     text-align: center;
+    align-items: center;
     background-color: #d9d9db;
     color: black;
     width: 100%;
@@ -119,3 +137,226 @@ div{
 .links:hover{
     opacity: 0.7;
 }
+
+#redes_sociais {
+    display: inline-block;
+    padding: 30px 140px 30px 140px;
+    width: 500px;
+    text-align: center;
+}
+
+.vertical {
+    display: inline-block;
+    border-left: 2px solid black;
+    padding: 10px 0px 30px 0px;
+    height: 50px;
+    position: static;
+}
+
+/*hr {
+    display: inline-block;
+    transform: rotate(90deg);
+    width: 100px;
+    border: 1px solid #121210;
+}*/
+
+#creditos {
+    display: inline-block;
+    padding: 30px 140px 30px 140px;
+    width: 500px;
+    text-align: center;
+}
+
+#holder2, #holder4, #holder6 {
+    animation-duration: 4s;
+    animation-name: fadein;
+}
+  
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#holder1, #holder3, #holder5 {
+    animation-duration: 5s;
+    animation-name: fadein;
+}
+  
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+
+/* RESPONSIVO PARA CELULAR*/
+
+@media (min-width: 375px) and (max-width: 600px){
+    header > h1{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 45px;
+    }
+    
+    header > p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 25px;
+    }
+
+    main > p{
+        font-family: 'Poopins', sans-serif;
+        font-size: 20px;
+    }
+
+    .texto_atencao {
+        text-align: center;
+        margin: 25px 20px 50px 20px;
+        font-family: 'Poopins', sans-serif;
+        font-size: 20px;
+        animation: slide 5s;
+    }
+    
+    @keyframes slide {
+        from {
+            margin-left: 100%;
+            width: 487px
+        }
+        
+        to {
+            margin-left: 6,8%;
+            width: 487px
+        }
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    div{
+        padding: 30px 55px 30px 55px;
+        text-align: center;
+    }
+    
+    
+    .links {
+        background-color: #121210;
+        font-size: 15px;
+        width: 100px;
+        padding: 15px 0px;
+        margin: 10px 0px 20px 50px;
+        color: #d9d9db;
+        text-align: center;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+    
+    .fichas {
+        background-color: #121210;
+        padding: 15px 30px;
+        color: #d9d9db;
+        text-align: center;
+        border-radius: 32px;
+        font-family: 'Poopins', sans-serif;
+        text-decoration: none;
+        border: 2px solid #d9d9db;
+        transition: all 0.5s;
+    }
+    
+    
+    
+    #holder1, #holder2{
+        display: inline-block;
+    }
+    
+    #holder3, #holder4{
+        display: inline-block;
+    } 
+    
+    
+    #holder5, #holder6{
+        display: inline-block;
+    }
+
+    footer {
+        font-family: 'Poopins', sans-serif;
+        text-align: center;
+        align-items: center;
+        background-color: #d9d9db;
+        color: black;
+        width: 100%;
+        height: 300px;
+    }
+    
+    footer > h2{
+        padding: 20px 0px 0px 0px;
+        font-size: 15px;
+    }
+    
+    .fichas:hover{
+        opacity: 0.5;
+    }
+    .links:hover{
+        opacity: 0.7;
+    }
+    
+    #redes_sociais {
+        display: inline-block;
+        padding: 2px 40px 0px 0px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    .vertical {
+        display: inline-block;
+        border-left: 2px solid black;
+        padding: 10px 0px 30px 0px;
+        height: 200px;
+        position: static;
+    }
+    
+    #creditos {
+        display: inline-block;
+        padding: 2px 0px 0px 40px;
+        width: 150px;
+        text-align: center;
+    }
+    
+    #holder2, #holder4, #holder6 {
+        animation-duration: 4s;
+        animation-name: fadein;
+    }
+      
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    #holder1, #holder3, #holder5 {
+        animation-duration: 5s;
+        animation-name: fadein;
+    }
+      
+    @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+      
+        to {
+          opacity: 1;
+        }
+    }
+} 
